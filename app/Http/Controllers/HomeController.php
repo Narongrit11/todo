@@ -9,19 +9,10 @@ class HomeController extends Controller
     public function index(){
         return view('home');
     }
-    public function show($id){
-        return "ดี";
+    public function contact(){
+        return view('contact');
     }
-    public function create(){
-        return "ดี";
-    }
-    public function store(){
-        return "ดี";
-    }
-    public function update($id){
-        return "ดี";
-    }
-    public function delete($id){
-        return "ดี";
+    public function about(){
+        return view('about');
     }
 }

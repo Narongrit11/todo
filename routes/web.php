@@ -14,8 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'HomeController@index');
+Route::get('/contact', 'HomeController@contact');
+Route::get('/about', 'HomeController@about');
+//Route::get('/', 'HomeController@index');
 // Route::get('/', 'HomeController@show');
 // Route::get('/', 'HomeController@create');
 // Route::get('/', 'HomeController@store');
 // Route::get('/', 'HomeController@update');
 // Route::get('/', 'HomeController@delete');
+

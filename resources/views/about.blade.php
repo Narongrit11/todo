@@ -1,7 +1,6 @@
 @extends('layout.master')
 @section('title')
-หน้าแรก
+เกี่ยวกับ
 @section('content')
-<h1>หน้าแรก</h1>
+<h1>เกียวกับ</h1>
 @endsection
-
